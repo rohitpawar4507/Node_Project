@@ -1,0 +1,29 @@
+2023-09-19T10:47:50.490Z: info: 	Incoming Request - URL: /register, Method: POST, Body: {"username":"palava123","password":"000333123","firstName":"Palava","lastName":"Pawar","email":"rohit8.pawar@example.com"}
+2023-09-19T10:47:50.596Z: info: 	SQL Query - {}
+2023-09-19T10:47:50.597Z: info: 	SQL Response - {"fieldCount":0,"affectedRows":1,"insertId":124,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+
+2023-09-19T10:50:54.104Z: info: 	Incoming Request - URL: /login, Method: POST,Query: {}, Body: {"username":"palava123","password":"000333123"}
+2023-09-19T10:50:54.215Z: info: 	Generated JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEyNCwiaWF0IjoxNjk1MTIwNjU0LCJleHAiOjE2OTUxMjQyNTR9.txg_IIHPyrDfFzv71cZoik2KGPsn-nr_NGSul7m0Qz8
+2023-09-19T10:50:54.216Z: info: 	User ID: 124
+
+2023-09-19T10:54:38.026Z: info: 	User registered successfully  Incoming Request - URL: /register, Method: POST,Query: {}, Body: {"username":"palava11","password":"00033311","firstName":"Palava","lastName":"Pawar","email":"rohit8.pawar@example.com"}
+2023-09-19T10:54:38.139Z: info: 	SQL Query - undefined
+2023-09-19T10:54:38.140Z: info: 	SQL Response - {"fieldCount":0,"affectedRows":1,"insertId":125,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+2023-09-19T10:56:07.871Z: info: 	User registered successfully  Incoming Request - URL: /register, Method: POST,Query: {}, Body: {"username":"michel","password":"michel","firstName":"Palava","lastName":"Pawar","email":"rohit8.pawar@example.com"}
+2023-09-19T10:56:23.031Z: info: 	User registered successfully  Incoming Request - URL: /register, Method: POST,Query: {}, Body: {"username":"michel","password":"michel","firstName":"Palava","lastName":"Pawar","email":"rohit8.pawar@example.com"}
+2023-09-19T10:56:49.123Z: info: 	User registered successfully  Incoming Request - URL: /register, Method: POST,Query: {}, Body: {"username":"michel","password":"michel","firstName":"Palava","lastName":"Pawar","email":"rohit8.pawar@example.com"}
+2023-09-19T10:56:49.234Z: error: 	SQL Query - undefined
+2023-09-19T10:56:49.236Z: error: 	Error: Error: ER_DUP_ENTRY: Duplicate entry 'michel' for key 'users.username'
+
+2023-09-19T10:56:57.083Z: info: 	User registered successfully  Incoming Request - URL: /register, Method: POST,Query: {}, Body: {"username":"michel1","password":"michel","firstName":"Palava","lastName":"Pawar","email":"rohit8.pawar@example.com"}
+2023-09-19T10:56:57.191Z: info: 	SQL Query - undefined
+2023-09-19T10:56:57.193Z: info: 	SQL Response - {"fieldCount":0,"affectedRows":1,"insertId":129,"serverStatus":2,"warningCount":0,"message":"","protocol41":true,"changedRows":0}
+
+
+2023-09-19T10:58:12.026Z: info: 	Incoming Request - URL: /login, Method: POST,Query: {}, Body: {"username":"michel1","password":"michel"}
+2023-09-19T10:58:12.139Z: info: 	Generated JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEyOSwiaWF0IjoxNjk1MTIxMDkyLCJleHAiOjE2OTUxMjQ2OTJ9.r_mVx10cGw6CnTkqyuaXcUNPB71grLIallEEksdee30
+2023-09-19T10:58:12.140Z: info: 	User ID: 129
+
+
+
+
