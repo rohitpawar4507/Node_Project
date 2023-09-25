@@ -1,4 +1,5 @@
 # Node_Project # User Registration & Login 
+
  In This project the , We have make Registration, Login API.
  User can register using username, password, firstName, lastName & email.
  After that using username and password , we can login
